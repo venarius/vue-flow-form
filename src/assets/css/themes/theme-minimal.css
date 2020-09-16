@@ -38,19 +38,19 @@ header svg.logo{
   fill: rgba(0,0,0,0.9);
 }
 
-.v-form input[type=text],
-.v-form input[type=number],
-.v-form input[type=tel],
-.v-form input[type=email],
-.v-form input[type=url],
-.v-form input[type=password],
+.v-form .f-input[type=text],
+.v-form .f-input[type=number],
+.v-form .f-input[type=tel],
+.v-form .f-input[type=email],
+.v-form .f-input[type=url],
+.v-form .f-input[type=password],
 .v-form textarea,
 .v-form span.faux-form {
   border-bottom-color: var(--secondary-text-color);
 }
 
 .v-form textarea,
-.v-form input,
+.v-form .f-input,
 .v-form select option {
   color: var(--main-text-color);
 }
@@ -96,7 +96,7 @@ ul.f-radios li:active {
   background-color: var(--tertiary-text-color);
 }
 
-ul.f-radios li.f-other.f-selected input {
+ul.f-radios li.f-other.f-selected .f-input {
   color: inherit;
 }
 
@@ -207,7 +207,7 @@ p.description,
   }
 
   .v-form textarea,
-  .v-form input,
+  .v-form .f-input,
   .v-form select option {
     color: var(--main-accent-color);
   }

@@ -24,6 +24,7 @@
         <input
           v-if="editingOther"
           v-model="question.other"
+          class="f-input"
           type="text"
           ref="otherInput"
           v-on:blur="stopEditOther"

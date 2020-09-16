@@ -1,6 +1,7 @@
 <template>
   <input
     ref="input"
+    class="f-input"
     v-bind:type="inputType"
     v-bind:value="value"
     v-bind:required="question.required"
