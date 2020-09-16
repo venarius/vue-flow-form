@@ -3,12 +3,12 @@
 <template>
   <div class="animate q-form" v-bind:class="mainClasses" ref="qanimate">
     <div class="q-inner">
-      <div v-bind:class="{'section-wrap': question.type === QuestionType.SectionBreak}">
-        <div v-bind:class="{'fh2': question.type !== QuestionType.SectionBreak}">
+      <div v-bind:class="{'section-wrap': question.type === QuestionType.SectionBreak || question.type === QuestionType.Component }">
+        <div v-bind:class="{'fh2': question.type !== QuestionType.SectionBreak && question.type !== QuestionType.Component }">
           <span class="f-tagline" v-if="question.tagline">{{ question.tagline }}</span>
 
           <template v-if="question.title">
-            <span class="fh2" v-if="question.type === QuestionType.SectionBreak">{{ question.title }}</span>
+            <span class="fh2" v-if="question.type === QuestionType.SectionBreak || question.type === QuestionType.Component">{{ question.title }}</span>
             <span class="f-text" v-else>
               {{ question.title }}&nbsp;
               <!-- Required questions are marked by an asterisk (*) -->
