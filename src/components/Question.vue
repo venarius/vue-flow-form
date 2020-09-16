@@ -30,7 +30,7 @@
 
           <div v-if="question.html" v-html="question.html" />
 
-          <span class="f-sub" v-if="question.subtitle || question.helpTextShow && (question.question.type === QuestionType.LongText || question.type === QuestionType.MultipleChoice)">
+          <span class="f-sub" v-if="question.subtitle || question.helpTextShow && (question.type === QuestionType.LongText || question.type === QuestionType.MultipleChoice)">
             <span v-if="question.subtitle">{{ question.subtitle }}</span>
 
             <span class="f-help" v-if="question.type === QuestionType.LongText && !isMobile" v-html="question.helpText || language.formatString(language.longTextHelpText)"></span>
