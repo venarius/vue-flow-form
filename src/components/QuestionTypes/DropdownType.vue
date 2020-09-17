@@ -2,7 +2,7 @@
   <span class="faux-form">
     <select
       ref="input"
-      class
+      class="f-select"
       v-bind:value="dataValue"
       v-on:change="onChange"
       v-on:keydown="onKeyDown"

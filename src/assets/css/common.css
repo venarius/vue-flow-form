@@ -216,7 +216,7 @@ span.faux-form {
   white-space: nowrap;
 }
 
-.v-form select {
+.v-form .f-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -235,7 +235,7 @@ span.faux-form {
   z-index: 1;
 }
 
-.v-form select {
+.v-form .f-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -594,7 +594,7 @@ a.f-disabled {
     margin-right: 0;
   }
 
-  .v-form select {
+  .v-form .f-select {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -634,7 +634,7 @@ a.f-disabled {
     padding: 0.22rem 0.4rem;
   }
 
-  .v-form select {
+  .v-form .f-select {
     font-size: 1rem;
     padding-top: .4rem;
     padding-bottom: .4rem;

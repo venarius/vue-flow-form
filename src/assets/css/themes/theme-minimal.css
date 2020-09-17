@@ -51,7 +51,7 @@ header svg.logo{
 
 .v-form textarea,
 .v-form .f-input,
-.v-form select option {
+.v-form .f-select option {
   color: var(--main-text-color);
 }
 
@@ -208,7 +208,7 @@ p.description,
 
   .v-form textarea,
   .v-form .f-input,
-  .v-form select option {
+  .v-form .f-select option {
     color: var(--main-accent-color);
   }
 
