@@ -376,8 +376,8 @@
       },
 
       submit() {
-        this.emitSubmit()
         this.submitted = true
+        this.emitSubmit()
       },
 
       emitComplete() {

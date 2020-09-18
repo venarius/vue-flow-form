@@ -188,7 +188,7 @@ p.description,
   dark mode styles
 */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #313640;
     --main-text-color: #fff;
@@ -224,7 +224,6 @@ p.description,
     color: var(--main-accent-color);
   }
 
-  /*footer*/
   .f-footer .footer-inner-wrap{
     background-color: rgba(49,54,64,0.75);
   }
@@ -253,7 +252,6 @@ p.description,
     background-color: var(--main-accent-color);
   }
 
-  /*field-multiplechoicetype*/
   ul.f-radios li.f-selected{
     color: var(--main-accent-color);
   }
@@ -268,4 +266,4 @@ p.description,
     color: var(--main-accent-color);
   }
 
-}
+} */
